@@ -1,6 +1,8 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
+  // TODO remove base after docs.zan.top ready
+  base: '/ZanDocs',
   favicons: ['https://a.zan.top/static/favicon.png'],
   locales: [{ id: 'en-US', name: 'English' }],
   runtimePublicPath: {},
