@@ -21,13 +21,13 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "dumi": "^2.1.22",
-    "dumi-theme-chakra": "^0.0.15",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "dumi": "^2.2.0",
+    "dumi-theme-chakra": "^0.0.17",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "nprogress": "^0.2.0",
-    "prettier": "^2.7.1"
+    "prettier": "^2.8.8"
   }
 }
