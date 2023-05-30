@@ -1,9 +1,3 @@
----
-nav:
-  title: Guide
-  order: 1
----
-
 # Introduction to ZAN's node service
 This topic describes the node service provided by the ZAN system. The node service provides end-to-end support for developers to develop Web3 applications on blockchains, from connections in the early stage, development and deployment in the middle stage, to monitoring, operations and maintenance (O&M), and data analysis in the last stage. This enables easy access to the world of Web3. 
 
