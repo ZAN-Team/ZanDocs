@@ -7,6 +7,10 @@ export default defineConfig({
     { id: 'zh-CN', name: '中文' },
   ],
   themeConfig: {
+    nav: {
+      'en-US': [{ title: 'Guide', link: '/guide' }],
+      'zh-CN': [{ title: '文档', link: '/zh-CN/guide' }],
+    },
     footer: 'Powered by ZAN',
     logo: 'https://user-images.githubusercontent.com/1061968/237677290-7040df5e-1764-428f-85d7-4b0ff44ee0b3.png',
   },
