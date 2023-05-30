@@ -7,6 +7,10 @@ export default defineConfig({
     { id: 'zh-CN', name: '中文' },
   ],
   themeConfig: {
+    nav: {
+      'en-US': [{ title: 'Guide', link: '/guide' }],
+      'zh-CN': [{ title: '文档', link: '/zh-CN/guide' }],
+    },
     footer: 'Powered by ZAN',
     logo: 'https://user-images.githubusercontent.com/1061968/237677290-7040df5e-1764-428f-85d7-4b0ff44ee0b3.png',
   },
@@ -15,6 +19,9 @@ export default defineConfig({
     {
       // fix chakra theme background image not work
       content: `
+#root {
+  background-attachment: fixed;
+}
 .chakra-ui-light #root {
   background-image: url(https://user-images.githubusercontent.com/1061968/240206867-b1e58356-7e8e-4e1d-89b7-85dca48ab6ce.jpg);
 }

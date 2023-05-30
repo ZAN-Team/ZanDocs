@@ -1,9 +1,3 @@
----
-nav:
-  title: Guide
-  order: 1
----
-
 # What is ZAN
 
 ## Our Service
