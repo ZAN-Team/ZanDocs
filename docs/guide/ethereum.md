@@ -1,3 +1,11 @@
+---
+title: Ethereum API Reference
+order: 1
+group:
+  title: API Reference
+  order: 2
+---
+
 # Ethereum API Reference
 
 ## Chain & Client Information

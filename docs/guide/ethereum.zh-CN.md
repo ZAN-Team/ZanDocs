@@ -1,4 +1,12 @@
-# Ethereum API 参考文档
+---
+title: Ethereum API 参考
+order: 1
+group:
+  title: API 参考
+  order: 2
+---
+
+# Ethereum API 参考
 
 ## 链与客户端信息
 
