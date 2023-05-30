@@ -1,3 +1,11 @@
+---
+title: BNB Smart Chain API Reference
+order: 2
+group:
+  title: API Reference
+  order: 2
+---
+
 # Binance Smart Chain API Reference
 
 ## Chain & Client Information

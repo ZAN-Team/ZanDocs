@@ -1,4 +1,12 @@
-# 币安智能链 (BSC) API 参考文档
+---
+title: 币安智能链 (BSC) API 参考
+order: 2
+group:
+  title: API 参考
+  order: 2
+---
+
+# 币安智能链 (BSC) API 参考
 
 ## 链与客户端信息
 
