@@ -15,6 +15,9 @@ export default defineConfig({
     {
       // fix chakra theme background image not work
       content: `
+#root {
+  background-attachment: fixed;
+}
 .chakra-ui-light #root {
   background-image: url(https://user-images.githubusercontent.com/1061968/240206867-b1e58356-7e8e-4e1d-89b7-85dca48ab6ce.jpg);
 }
