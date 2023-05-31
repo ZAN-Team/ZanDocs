@@ -1,6 +1,7 @@
 ---
   title: 资源定价
   order: 2
+  toc: content
 ---
 # 资源定价
 
@@ -19,98 +20,56 @@
 当前我们提供了一个免费的公测版，里面已包含了我们赠送的 500 Million  Credits/month，有效期30天，关于该套餐的详情信息请参见[套餐规格](#套餐规格)。
 
 ### Credit 定价明细
-#### Ethereum
-以下是 Ethereum 按 API 复杂度给出的 Credit 定价明细。
+以下是不同公链按 API 复杂度给出的 Credit 定价明细。
 
-| **接口名称**                              | **Credit 消耗量** |
-|---------------------------------------|----------------|
-| eth_sendRawTransaction                  | 200        |
-| eth_blockNumber                         | 10         |
-| eth_accounts                            | 10         |
-| eth_chainId                             | 0          |
-| net_version                             | 0          |
-| eth_estimateGas                         | 100        |
-| eth_call                                | 40        |
-| eth_feeHistory                          | 10         |
-| eth_gasPrice                            | 10         |
-| eth_getBalance                          | 15         |
-| eth_getBlockByHash                      | 25         |
-| eth_getBlockByNumber                    | 25         |
-| eth_getBlockTransactionCountByHash      | 15        |
-| eth_getBlockTransactionCountByNumber    | 15         |
-| eth_getCode                             | 25         |
-| eth_getProof                            | 30         |
-| eth_getStorageAt                        | 20         |
-| eth_getTransactionByBlockHashAndIndex   | 20         |
-| eth_getTransactionByBlockNumberAndIndex | 20         |
-| eth_getTransactionByHash                | 15         |
-| eth_getTransactionCount                 | 25        |
-| eth_getTransactionReceipt               | 15         |
-| eth_getUncleByBlockHashAndIndex         | 20         |
-| eth_getUncleByBlockNumberAndIndex       | 20         |
-| eth_getUncleCountByBlockHash            | 15         |
-| eth_getUncleCountByBlockNumber          | 15         |
-| eth_syncing                             | 0          |
-| net_listening                           | 0          |
-| net_peerCount                           | 0          |
-| web3_clientVersion                      | 10         |
-| eth_newBlockFilter                      | 20         |
-| eth_newPendingTransactionFilter         | 20         |
-| eth_getFilterChanges                    | 25         |
-| eth_newFilter                           | 20         |
-| eth_getFilterLogs                       | 75       |
-| eth_uninstallFilter                     | 10         |
-| eth_getLogs                             | 75         |
-| eth_subscribe                           | 20        |
-| eth_unsubscribe                         | 20         |
-| eth_subscribe_reload                    | 20         |
+| **接口名称**                             | **Credit 消耗量** |  **支持的链**   |
+|-----------------------------------------|-------------------|----------------|
+| eth_sendRawTransaction                  | 200        | Ethereum, BSC, Polygon|
+| eth_blockNumber                         | 10         | Ethereum, BSC, Polygon|
+| eth_accounts                            | 10         | Ethereum, BSC, Polygon|
+| eth_chainId                             | 0          | Ethereum, BSC, Polygon|
+| net_version                             | 0          | Ethereum, BSC, Polygon|
+| eth_estimateGas                         | 100        | Ethereum, BSC, Polygon|
+| eth_call                                | 40         | Ethereum, BSC, Polygon|
+| eth_feeHistory                          | 10         | Ethereum, BSC, Polygon|
+| eth_gasPrice                            | 10         | Ethereum, BSC, Polygon|
+| eth_getBalance                          | 15         | Ethereum, BSC, Polygon|
+| eth_getBlockByHash                      | 25         | Ethereum, BSC, Polygon|
+| eth_getBlockByNumber                    | 25         | Ethereum, BSC, Polygon|
+| eth_getBlockTransactionCountByHash      | 15         | Ethereum, BSC, Polygon|
+| eth_getBlockTransactionCountByNumber    | 15         | Ethereum, BSC, Polygon|
+| eth_getCode                             | 25         | Ethereum, BSC, Polygon|
+| eth_getProof                            | 30         | Ethereum, BSC, Polygon|
+| eth_getStorageAt                        | 20         | Ethereum, BSC, Polygon|
+| eth_getTransactionByBlockHashAndIndex   | 20         | Ethereum, BSC, Polygon|
+| eth_getTransactionByBlockNumberAndIndex | 20         | Ethereum, BSC, Polygon|
+| eth_getTransactionByHash                | 15         | Ethereum, BSC, Polygon|
+| eth_getTransactionCount                 | 25         | Ethereum, BSC, Polygon|
+| eth_getTransactionReceipt               | 15         | Ethereum, BSC, Polygon|
+| eth_getTransactionReceiptsByBlock       | 250        |                Polygon|
+| eth_getUncleByBlockHashAndIndex         | 20         | Ethereum, BSC, Polygon|
+| eth_getUncleByBlockNumberAndIndex       | 20         | Ethereum, BSC, Polygon|
+| eth_getUncleCountByBlockHash            | 15         | Ethereum, BSC, Polygon|
+| eth_getUncleCountByBlockNumber          | 15         | Ethereum, BSC, Polygon|
+| eth_syncing                             | 0          | Ethereum, BSC         |
+| net_listening                           | 0          | Ethereum, BSC, Polygon|
+| net_peerCount                           | 0          | Ethereum, BSC         |
+| web3_clientVersion                      | 10         | Ethereum, BSC, Polygon|
+| eth_newBlockFilter                      | 20         | Ethereum, BSC, Polygon|
+| eth_newPendingTransactionFilter         | 20         | Ethereum, BSC, Polygon|
+| eth_getFilterChanges                    | 25         | Ethereum, BSC, Polygon|
+| eth_newFilter                           | 20         | Ethereum, BSC, Polygon|
+| eth_getFilterLogs                       | 75         | Ethereum, BSC, Polygon|
+| eth_uninstallFilter                     | 10         | Ethereum, BSC, Polygon|
+| eth_getLogs                             | 75         | Ethereum, BSC, Polygon|
+| eth_subscribe                           | 20         | Ethereum, BSC, Polygon|
+| eth_unsubscribe                         | 20         | Ethereum, BSC, Polygon|
+| eth_subscribe_reload                    | 20         | Ethereum, BSC, Polygon|
+| bor_getRootHash                         | 10         |                Polygon|
+| bor_getCurrentValidators                | 10         |                Polygon|
+| bor_getCurrentProposer                  | 10         |                Polygon|
+| bor_getAuthor                           | 10         |                Polygon|
 
-
-#### BNB Smart Chain
-以下是 BNB Smart Chain 按 API 复杂度给出的 Credit 定价明细。
-
-| **接口名称**                              | **Credit 消耗量** |
-|---------------------------------------|----------------|
-| eth_sendRawTransaction                  | 250        |
-| eth_blockNumber                         | 10         |
-| eth_accounts                            | 10         |
-| eth_chainId                             | 0          |
-| net_version                             | 0          |
-| eth_estimateGas                         | 100        |
-| eth_call                                | 100        |
-| eth_feeHistory                          | 10         |
-| eth_gasPrice                            | 20         |
-| eth_getBalance                          | 20         |
-| eth_getBlockByHash                      | 25         |
-| eth_getBlockByNumber                    | 25         |
-| eth_getBlockTransactionCountByHash      | 20         |
-| eth_getBlockTransactionCountByNumber    | 20         |
-| eth_getCode                             | 25         |
-| eth_getProof                            | 25         |
-| eth_getStorageAt                        | 10         |
-| eth_getTransactionByBlockHashAndIndex   | 20         |
-| eth_getTransactionByBlockNumberAndIndex | 20         |
-| eth_getTransactionByHash                | 10         |
-| eth_getTransactionCount                 | 20         |
-| eth_getTransactionReceipt               | 15         |
-| eth_getUncleByBlockHashAndIndex         | 15         |
-| eth_getUncleByBlockNumberAndIndex       | 15         |
-| eth_getUncleCountByBlockHash            | 15         |
-| eth_getUncleCountByBlockNumber          | 15         |
-| eth_syncing                             | 0          |
-| net_listening                           | 0          |
-| net_peerCount                           | 0          |
-| web3_clientVersion                      | 15         |
-| eth_newBlockFilter                      | 20         |
-| eth_newPendingTransactionFilter         | 20         |
-| eth_getFilterChanges                    | 25         |
-| eth_newFilter                           | 20         |
-| eth_getFilterLogs                       | 100        |
-| eth_uninstallFilter                     | 10         |
-| eth_getLogs                             | 80         |
-| eth_subscribe                           | 10         |
-| eth_unsubscribe                         | 10         |
-| eth_subscribe_reload                    | 10         |
 
 ## 套餐规格
 ### 现有套餐

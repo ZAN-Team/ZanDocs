@@ -1,6 +1,7 @@
 ---
 title: Resource pricing
 order: 2
+toc: content
 ---
 
 # Resource pricing
@@ -20,96 +21,54 @@ The current free public preview edition imposes a limit on the maximum number of
 Currently, we provide a free public preview edition. This edition provides a free quota of 500 million credits per month, which is valid for 30 days. For more information about this plan, see [Plan specifications](#plan-specifications). 
 
 ### Credit pricing details
-#### Ethereum
-The following table describes the credit pricing details based on the Ethereum API complexity. 
+The following are the Credit pricing for different RPC methods based on their complexity.
 
-| **API method** | **Credit consumption** |
-|---------------------------------------|----------------|
-| eth_sendRawTransaction                  | 200        |
-| eth_blockNumber                         | 10         |
-| eth_accounts                            | 10         |
-| eth_chainId                             | 0          |
-| net_version                             | 0          |
-| eth_estimateGas                         | 100        |
-| eth_call                                | 40        |
-| eth_feeHistory                          | 10         |
-| eth_gasPrice                            | 10         |
-| eth_getBalance                          | 15         |
-| eth_getBlockByHash                      | 25         |
-| eth_getBlockByNumber                    | 25         |
-| eth_getBlockTransactionCountByHash      | 15        |
-| eth_getBlockTransactionCountByNumber    | 15         |
-| eth_getCode                             | 25         |
-| eth_getProof                            | 30         |
-| eth_getStorageAt                        | 20         |
-| eth_getTransactionByBlockHashAndIndex   | 20         |
-| eth_getTransactionByBlockNumberAndIndex | 20         |
-| eth_getTransactionByHash                | 15         |
-| eth_getTransactionCount                 | 25        |
-| eth_getTransactionReceipt               | 15         |
-| eth_getUncleByBlockHashAndIndex         | 20         |
-| eth_getUncleByBlockNumberAndIndex       | 20         |
-| eth_getUncleCountByBlockHash            | 15         |
-| eth_getUncleCountByBlockNumber          | 15         |
-| eth_syncing                             | 0          |
-| net_listening                           | 0          |
-| net_peerCount                           | 0          |
-| web3_clientVersion                      | 10         |
-| eth_newBlockFilter                      | 20         |
-| eth_newPendingTransactionFilter         | 20         |
-| eth_getFilterChanges                    | 25         |
-| eth_newFilter                           | 20         |
-| eth_getFilterLogs                       | 75       |
-| eth_uninstallFilter                     | 10         |
-| eth_getLogs                             | 75         |
-| eth_subscribe                           | 20        |
-| eth_unsubscribe                         | 20         |
-| eth_subscribe_reload                    | 20         |
-
-#### BNB Smart Chain
-The following table describes the credit pricing details based on the BNB Smart Chain API complexity.
-| **API method** | **Credit consumption** |
-|---------------------------------------|----------------|
-| eth_sendRawTransaction                  | 250        |
-| eth_blockNumber                         | 10         |
-| eth_accounts                            | 10         |
-| eth_chainId                             | 0          |
-| net_version                             | 0          |
-| eth_estimateGas                         | 100        |
-| eth_call                                | 100        |
-| eth_feeHistory                          | 10         |
-| eth_gasPrice                            | 20         |
-| eth_getBalance                          | 20         |
-| eth_getBlockByHash                      | 25         |
-| eth_getBlockByNumber                    | 25         |
-| eth_getBlockTransactionCountByHash      | 20         |
-| eth_getBlockTransactionCountByNumber    | 20         |
-| eth_getCode                             | 25         |
-| eth_getProof                            | 25         |
-| eth_getStorageAt                        | 10         |
-| eth_getTransactionByBlockHashAndIndex   | 20         |
-| eth_getTransactionByBlockNumberAndIndex | 20         |
-| eth_getTransactionByHash                | 10         |
-| eth_getTransactionCount                 | 20         |
-| eth_getTransactionReceipt               | 15         |
-| eth_getUncleByBlockHashAndIndex         | 15         |
-| eth_getUncleByBlockNumberAndIndex       | 15         |
-| eth_getUncleCountByBlockHash            | 15         |
-| eth_getUncleCountByBlockNumber          | 15         |
-| eth_syncing                             | 0          |
-| net_listening                           | 0          |
-| net_peerCount                           | 0          |
-| web3_clientVersion                      | 15         |
-| eth_newBlockFilter                      | 20         |
-| eth_newPendingTransactionFilter         | 20         |
-| eth_getFilterChanges                    | 25         |
-| eth_newFilter                           | 20         |
-| eth_getFilterLogs                       | 100        |
-| eth_uninstallFilter                     | 10         |
-| eth_getLogs                             | 80         |
-| eth_subscribe                           | 10         |
-| eth_unsubscribe                         | 10         |
-| eth_subscribe_reload                    | 10         |
+| **API method**                          | **Credit consumption** |  **Supported chain**   |
+|-----------------------------------------|-------------------|----------------|
+| eth_sendRawTransaction                  | 200        | Ethereum, BSC, Polygon|
+| eth_blockNumber                         | 10         | Ethereum, BSC, Polygon|
+| eth_accounts                            | 10         | Ethereum, BSC, Polygon|
+| eth_chainId                             | 0          | Ethereum, BSC, Polygon|
+| net_version                             | 0          | Ethereum, BSC, Polygon|
+| eth_estimateGas                         | 100        | Ethereum, BSC, Polygon|
+| eth_call                                | 40         | Ethereum, BSC, Polygon|
+| eth_feeHistory                          | 10         | Ethereum, BSC, Polygon|
+| eth_gasPrice                            | 10         | Ethereum, BSC, Polygon|
+| eth_getBalance                          | 15         | Ethereum, BSC, Polygon|
+| eth_getBlockByHash                      | 25         | Ethereum, BSC, Polygon|
+| eth_getBlockByNumber                    | 25         | Ethereum, BSC, Polygon|
+| eth_getBlockTransactionCountByHash      | 15         | Ethereum, BSC, Polygon|
+| eth_getBlockTransactionCountByNumber    | 15         | Ethereum, BSC, Polygon|
+| eth_getCode                             | 25         | Ethereum, BSC, Polygon|
+| eth_getProof                            | 30         | Ethereum, BSC, Polygon|
+| eth_getStorageAt                        | 20         | Ethereum, BSC, Polygon|
+| eth_getTransactionByBlockHashAndIndex   | 20         | Ethereum, BSC, Polygon|
+| eth_getTransactionByBlockNumberAndIndex | 20         | Ethereum, BSC, Polygon|
+| eth_getTransactionByHash                | 15         | Ethereum, BSC, Polygon|
+| eth_getTransactionCount                 | 25         | Ethereum, BSC, Polygon|
+| eth_getTransactionReceipt               | 15         | Ethereum, BSC, Polygon|
+| eth_getTransactionReceiptsByBlock       | 250        |                Polygon|
+| eth_getUncleByBlockHashAndIndex         | 20         | Ethereum, BSC, Polygon|
+| eth_getUncleByBlockNumberAndIndex       | 20         | Ethereum, BSC, Polygon|
+| eth_getUncleCountByBlockHash            | 15         | Ethereum, BSC, Polygon|
+| eth_getUncleCountByBlockNumber          | 15         | Ethereum, BSC, Polygon|
+| eth_syncing                             | 0          | Ethereum, BSC         |
+| net_listening                           | 0          | Ethereum, BSC, Polygon|
+| web3_clientVersion                      | 10         | Ethereum, BSC, Polygon|
+| eth_newBlockFilter                      | 20         | Ethereum, BSC, Polygon|
+| eth_newPendingTransactionFilter         | 20         | Ethereum, BSC, Polygon|
+| eth_getFilterChanges                    | 25         | Ethereum, BSC, Polygon|
+| eth_newFilter                           | 20         | Ethereum, BSC, Polygon|
+| eth_getFilterLogs                       | 75         | Ethereum, BSC, Polygon|
+| eth_uninstallFilter                     | 10         | Ethereum, BSC, Polygon|
+| eth_getLogs                             | 75         | Ethereum, BSC, Polygon|
+| eth_subscribe                           | 20         | Ethereum, BSC, Polygon|
+| eth_unsubscribe                         | 20         | Ethereum, BSC, Polygon|
+| eth_subscribe_reload                    | 20         | Ethereum, BSC, Polygon|
+| bor_getRootHash                         | 10         |                Polygon|
+| bor_getCurrentValidators                | 10         |                Polygon|
+| bor_getCurrentProposer                  | 10         |                Polygon|
+| bor_getAuthor                           | 10         |                Polygon|
 
 
 ## Plan specifications

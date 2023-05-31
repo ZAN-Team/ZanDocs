@@ -4,6 +4,7 @@ order: 3
 group:
   title: API 参考
   order: 2
+toc: content
 ---
 
 # Polygon API 参考

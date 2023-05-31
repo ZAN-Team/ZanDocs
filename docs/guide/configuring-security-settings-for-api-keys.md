@@ -1,9 +1,10 @@
 ---
-title: Configuring security settings for API keys
+title: Security settings
 order: 4
+toc: content
 ---
 
-# 👷 Configuring security settings for API keys
+# 👷 Security settings
 You can configure security settings for your API key, including secret-based two-factor authentication on connections, the contract address allowlist, the source allowlist, the API request method allowlist, and the upper limit of credit consumption. 
 
 ## Overview
@@ -38,6 +39,17 @@ By default, the system generates a secret for two-factor authentication for your
 
 ## Setting a contract address allowlist
 You can configure a contract address allowlist to limit the accessible contract addresses to prevent the abuse of your API key.
+If your application only queries data from specific Ethereum smart contracts or addresses, add those addresses to the contract addresses allowlist.
+Any requests which query addresses that are not in the allowlist are rejected.
+The following RPC methods take an Ethereum address parameter and are compatible with type of allowlisting:
+- eth_call
+- eth_estimateGas
+- eth_getLogs
+- eth_getBalance
+- eth_getCode
+- eth_getStorageAt
+- eth_getTransactionCount
+
 In the **Allowlists** module, add contract addresses in **Contract Addresses** to configure the allowlist. 
 - If no contract addresses are specified in the contract address allowlist, the allowlist is disabled by default and all contracts are accessible. 
 - After you add contract addresses to the contract address allowlist, only contracts with the specified addresses can be called by the API.

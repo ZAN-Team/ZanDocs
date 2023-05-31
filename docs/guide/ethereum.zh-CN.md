@@ -4,6 +4,7 @@ order: 1
 group:
   title: API 参考
   order: 2
+toc: content
 ---
 
 # Ethereum API 参考

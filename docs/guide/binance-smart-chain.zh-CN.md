@@ -1,12 +1,13 @@
 ---
-title: 币安智能链 (BSC) API 参考
+title: BNB Smart Chain API 参考
 order: 2
 group:
   title: API 参考
   order: 2
+toc: content
 ---
 
-# 币安智能链 (BSC) API 参考
+# BNB Smart Chain API 参考
 
 ## 链与客户端信息
 

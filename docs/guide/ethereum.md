@@ -1,12 +1,13 @@
 ---
-title: Ethereum API Reference
+title: Ethereum
 order: 1
 group:
   title: API Reference
   order: 2
+toc: content
 ---
 
-# Ethereum API Reference
+# Ethereum
 
 ## Chain & Client Information
 
