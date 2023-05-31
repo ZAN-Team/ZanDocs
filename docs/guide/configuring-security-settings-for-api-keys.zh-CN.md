@@ -6,9 +6,21 @@ order: 4
 # 👷 API Key 安全性配置
 用户可以基于 API Key 连接私钥进行双重校验、合约地址白名单、访问来源白名单、API请求方法限制、以及对该API能够消耗的Credit最大用量进行合理限制。
 
+## 概述
+第一要素，保障安全！
+通过本章节的学习，您可以进行以下一些安全性的配置：
+- **密钥双重校验**
+  启用双重密钥，保障访问的安全。
+- **白名单控制**
+  - 合约地址白名单：限定可以访问的合约地址，防止滥用。
+  - 访问来源白名单：指定可发起访问的IP地址。
+- **Credit用量控制**
+  - 细颗粒度限制API Key可调用方法的范围。
+  - 设定API Key的Credit用量上限。
+
 ## 设置路径
 鼠标悬浮在已创建的目标 API Key 面板后，点击 **Action** ，在 API Key 管理页的 **Security** 功能页签下，可以设置 API Key 连接的安全性。
-![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p668836.png?Expires=7258150990&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=YsFmtSUo4F%2Feyh%2Frt4bOuY5X5LE%3D)
+![security-config.png](./images/security-config.png)
 
 API Key 连接的安全性，可以通过以下几个方面进行设置：
 - [密钥双重校验](#密钥双重校验)

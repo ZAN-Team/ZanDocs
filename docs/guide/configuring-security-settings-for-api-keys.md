@@ -6,9 +6,21 @@ order: 4
 # 👷 Configuring security settings for API keys
 You can configure security settings for your API key, including secret-based two-factor authentication on connections, the contract address allowlist, the source allowlist, the API request method allowlist, and the upper limit of credit consumption. 
 
+## Overview
+Priority: security protection.
+In this chapter, you will be able to configure the following security Settings:
+- **Secret-based two-factor authentication**
+   You can enable secret-based two-factor authentication to ensure access security. 
+- **Allowlist control**
+   - Contract address allowlist: You can limit the accessible contract addresses to prevent abuse of API keys. 
+   - Source allowlist: You can control the source IP addresses from which access requests can be initiated. 
+- **Credit usage control**
+   - You can implement fine-grained control over the methods that can be called by using an API key. 
+   - You can set the upper limits of credit usage for API keys.
+
 ## Configuration path
 Move the pointer over the target API key panel, and click **Action**. On the **Security** tab of the API key management page, you can configure the settings to secure API key-based connections.
-![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p668836.png?Expires=7258150990&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=YsFmtSUo4F%2Feyh%2Frt4bOuY5X5LE%3D)
+![security-config.png](./images/security-config.png)
 
 You can configure the following settings to secure API key-based connections:
 - [Configuring secret-based two-factor authentication](#configuring-secret-based-two-factor-authentication)

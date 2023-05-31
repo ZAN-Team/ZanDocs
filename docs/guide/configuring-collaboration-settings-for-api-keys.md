@@ -6,6 +6,14 @@ order: 6
 # Configuring collaboration settings for API keys
 After you create an API key, you can share it with other members. You can also configure permissions for each member to implement collaborative development in your project team. 
 
+## Overview
+Fast collaboration for engineering efficiency improvement.
+In this chapter, you will be able to set the current API Key for members with different permissions:
+- **Member collaboration**
+   Members can share existing API keys. 
+- **Custom permissions**
+   Permissions can be configured and granted to each member separately. 
+
 ## Description
 - Credit consumption: After members are added for an API key, all the credits consumed by the API key are counted on the creator of the API key. 
 - Creator: By default, the creator of an API key has the permissions of the Admin role on the key. 
@@ -15,32 +23,34 @@ After you create an API key, you can share it with other members. You can also c
 Move the pointer over the target API key panel, and click **Action**. On the **Teamwork** tab of the API key management page, you can add members for the API key and assign roles with different permissions to the members. 
 
 <Alert type="info">
-
-**Note**: Only API key creators and members who have the Teamwork management permissions can do the following settings. 
-
+<b>Note</b>: Only API key creators and members who have the Teamwork management permissions can do the following settings. 
 </Alert>
 
 ### Adding members
 You can add multiple members for an API key based on the following method:
 1. On the **Teamwork** tab, click **Add Member**. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669275.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=6FmVfpO%2Fjv7ruPggrcW%2FGBvMQr0%3D)
+   ![add-member.png](./images/add-member.png)
 
 2. In the dialog box that appears, enter the email address of the desired member and select a role for the member. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669276.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=6BkjqJfLtaHYgGTUGSfx9g8%2FTxo%3D)
+   ![input-member-info.png](./images/input-member-info.png)
 
 3. Click **OK**. Then, the ZAN platform sends an email to the member. 
+   At the same time, a member information with status as invited is generated under your member list.
+   ![invited-member.png](./images/invited-member.png)
+
 4. After the member confirms the details in the email, the member becomes a project member of the API key. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669277.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=glEEkks05cNQFBiPOClwj0l73D0%3D)
 
 ### Creating custom roles
 By default, the platform provides the **Admin** role. If you want to create more roles that have different permissions, perform the following steps:
 1. On the **Teamwork** tab, click **Create Role**. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669273.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=rpAsJ9c5Bk7KOBY1XXrganzgAXI%3D)
+   ![create-role.png](./images/create-role.png)
 
 2. In the right-side panel that appears, click **Add** to add a new role. 
 3. Enter a role name and specify the corresponding permissions as shown in the following figure. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669270.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=O%2Bjw64iU%2FiGBxj0KU3UIDscI9ds%3D)
-
+   ![config-role.png](./images/config-role.png)
+   <Alert type="info">
+   <b>Note</b>: On this page, you can also modify or delete roles that have been created previously.
+   </Alert>
    The platform provides a total of eight permission options, which are obtained by combining operation permissions and viewing permissions based on the following four permission modules. 
    | Permission module     | Operation permission (All)   | Viewing permission (Only View)                                                |
    |----------|--------------|----------------------------------------------------------------|
@@ -61,8 +71,8 @@ By default, the platform provides the **Admin** role. If you want to create more
 
 ### Modifying the role of a member
 On the **Teamwork** tab, you can view the information about all the members of the API key in a list. If you want to change the role of a member, switch the role in the **Role** column. 
-![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669181.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=E6nWa52xFw5q%2F1yPqIaowPR9Yy8%3D)
+![modify-role.png](./images/modify-role.png)
 
 ### Deleting a role
 On the **Teamwork** tab, you can view the information about all the members of the API key in a list. If you want to delete a member, click **Delete** in the **Action** column. The member is deleted after your confirmation. 
-![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669183.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=pT3SHzv5e2hT3TYsvCETJLgFjiE%3D)
+![delete-member.png](./images/delete-member.png)
