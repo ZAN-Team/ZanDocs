@@ -22,7 +22,7 @@ order: 7
 ## 第三步：复制您的网络连接地址
 创建API Key后，您可以在这里获取到用于 Metamask 中 RPC URL 的链接地址。点击具体区块链模块右上角的下拉菜单，可以自由切换网络，如测试网、主网等，不同的网络下提供不同的链接地址。点击 HTTPS 链接地址右侧的 **Copy** 按钮，即可快捷复制该链接地址，具体参见[获取 API Key 信息](/zh-CN/guide/getting-started#获取api-key-的信息)。
 
-![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p671956.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=lViJEhbsPOggBVop4f%2B3D8X45n4%3D)
+![get-apikey-info.png](./images/get-apikey-info.png)
 
 以下当前ZAN平台支持的区块链网络链接地址清单：
 
@@ -41,19 +41,20 @@ order: 7
 
 ### 添加Polygon主网
 1. 打开 MetaMask 并单击位于窗口右上角的网络名称。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p671974.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=CiJktTtXomux6EOgQqxXyyLuzu4%3D)
+   ![add-polygon-mainnet.png](./images/add-polygon-mainnet.png)
 
 2. 单击弹出窗口底部的 **Add Network** 按钮。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p671977.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=JtjtEiR4CdTr1k%2B7cJj61MJGPt8%3D)
+   ![add-network.png](./images/add-network.png)
 
 3. 您需要手动添加您的网络，点击页面左下方的 Add a network manually 即可开始添加。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p672004.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=IdHwwugGvtJ8iIFe%2FKjMLsC1kIc%3D) 
+   ![add-network-manually.png](./images/add-network-manually.png) 
+
    <Alert type="info">
-**说明**：在列表中如果有您想要添加的主流网络，也可以直接单击 **Add** 按钮进行快速添加，例如 **Polygon Mainnet** .
-</Alert>
+   📘 <b>说明</b>：在列表中如果有您想要添加的主流网络，也可以直接单击 <b>Add</b> 按钮进行快速添加，例如 <b>Polygon Mainnet</b>。
+   </Alert>
 
 4. 输入以下网络详细信息，并单击保存。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p672195.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=lOgmpKIn1kcjNYno5ursqtbiLvQ%3D)
+   ![mainnet-network-details.png](./images/mainnet-network-details.png)
 
    | 参数                     | 说明                                                                           |
    |------------------------|------------------------------------------------------|
@@ -65,7 +66,7 @@ order: 7
 
 点击Save后，下拉列表中会直接切换到 Polygon Mainnet。
 
-恭喜你！你现在已经成功添加了可以与我们ZAN平台通信的Polygon主网。
+恭喜你！您已成功完成了添加polugon主网的所有配置。
 
 ### 添加Polygon测试网 (Mumbai)
 
@@ -73,8 +74,8 @@ order: 7
 
 1. 首先，请确保您已启用 **Show test networks toggle**。
    打开这个开关后，可以在网络列表中展示所有默认的测试网络。您可以在**设置** > **高级** > **显示测试网络** 中找到并开启它。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p672094.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=AAcaFdlfklw1vKSE4OHNseaYLXA%3D)
+   ![show-test-networks.png](./images/show-test-networks.png)
 
 2. 输入以下网络详细信息，并单击保存。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p672218.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=UArGhnJoK1MAMtXAWIC34MBJWeM%3D)
+   ![mumbai-manetwork-details.png](./images/mumbai-manetwork-details.png)
    相关参数的配置说明，请参见 Updating Polygon Mainnet 的[步骤4](#添加polygon主网)。

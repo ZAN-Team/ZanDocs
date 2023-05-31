@@ -22,7 +22,7 @@ You can [create the API key on the ZAN platform](/guide/getting-started#creating
 ## Step 3: Copy your network URL
 After the API key is created, you can get the URLs that can be used for the RPC URL on MetaMask. By clicking the drop-down menu in the upper-right corner of the specific blockchain module, you can switch networks, such as the testnet and mainnet. Different URLs are provided for different networks. Click **Copy** to the right of the HTTPS URL to quickly copy the URL. For more information, see [Getting API key information](/guide/getting-started#getting-api-key-information). 
 
-![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p671956.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=lViJEhbsPOggBVop4f%2B3D8X45n4%3D)
+![get-apikey-info.png](./images/get-apikey-info.png)
 
 The following table lists the network URLs of the blockchains currently supported by the ZAN platform.
 
@@ -41,19 +41,20 @@ This section describes how to add Polygon Mainnet and Polygon's Mumbai Testnet t
 
 ### Adding Polygon Mainnet
 1. Open MetaMask and click the target network name in the upper-right corner of the window.
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p671974.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=CiJktTtXomux6EOgQqxXyyLuzu4%3D)
+   ![add-polygon-mainnet.png](./images/add-polygon-mainnet.png)
 
 2. Click **Add network** at the bottom of the pop-up window.
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p671977.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=JtjtEiR4CdTr1k%2B7cJj61MJGPt8%3D)
+   ![add-network.png](./images/add-network.png)
 
 3. Click Add a network manually at the lower-left part of the page to add the network. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p672004.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=IdHwwugGvtJ8iIFe%2FKjMLsC1kIc%3D)
+   ![add-network-manually.png](./images/add-network-manually.png)
+
    <Alert type="info">
-   **Note**: If the mainstream network you want to add is already in the list, such as **Polygon Mainnet**, you can also directly click **Add** to add the network.
+   📘 <b>Note</b>: If the mainstream network you want to add is already in the list, such as <b>Polygon Mainnet</b>, you can also directly click <b>Add</b> to add the network.
    </Alert>
 
 4. Enter the following network details and click Save. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p672195.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=lOgmpKIn1kcjNYno5ursqtbiLvQ%3D)
+   ![mainnet-network-details.png](./images/mainnet-network-details.png)
 
    | Parameter | Description |
    |------------------------|------------------------------------------------------|
@@ -65,7 +66,7 @@ This section describes how to add Polygon Mainnet and Polygon's Mumbai Testnet t
 
 After you click Save, you are switched to Polygon Mainnet in the network drop-down list. 
 
- You have successfully added Polygon Mainnet that can communicate with the ZAN platform to MetaMask. 
+ You have successfully completed all configurations for adding the Polygon Mainnet. 
 
 ### Adding Polygon's Mumbai Testnet
 
@@ -73,8 +74,8 @@ Mumbai Testnet replicates the Polygon's mainnet that is used for testing purpose
 
 1. Make sure that you have turned on the **Show test networks** toggle. 
    After the toggle is turned on, all default test networks are displayed in the network list. Go to **Settings** > **Advanced**, and turn on **Show test networks**. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p672094.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=AAcaFdlfklw1vKSE4OHNseaYLXA%3D)
+   ![show-test-networks.png](./images/show-test-networks.png)
 
 2. Enter the following network details and click Save. 
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23053700/images/p672218.png?Expires=7258155120&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=UArGhnJoK1MAMtXAWIC34MBJWeM%3D)
+   ![mumbai-manetwork-details.png](./images/mumbai-manetwork-details.png)
    For information about how to configure the related parameters, see [Step 4](#adding-polygon-mainnet) in Updating Polygon Mainnet. 

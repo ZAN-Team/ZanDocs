@@ -6,6 +6,14 @@ order: 6
 # API Key 多方协同
 创建API Key后，支持通过添加成员的方式，让其他成员可以共同使用当前API Key；同时，还支持为每位成员的自定义权限，以此来实现项目团队协同开发的能力。
 
+## 概述
+快捷协作，工程提效！
+通过本章节的学习，您可以设置不同权限的成员使用当前的API Key：
+- **成员协同**
+   支持共同使用当前API Key。
+- **权限自定义**
+   支持定义每位成员的权限。
+
 ## 相关说明
 - Credit消耗：为 API Key 添加参与用户后，该API Key所消耗的 Credit 均由 API Key 的创建人来承担。
 - 创建者：对于API Key 的创建者来说，默认拥有该 API Key 的管理员角色的权限。
@@ -15,32 +23,34 @@ order: 6
 鼠标悬浮在已创建的目标 API Key 面板后，点击 **Action** ，在 API Key 管理页的 **Teamwork** 功能页签下，可以为API Key 添加参与用户，并且支持为参与用户赋予不同权限的角色。
 
 <Alert type="info">
-
-**说明**：只有API Key的创建者或具有 Teamwork 管理权限的参与用户可以进行以下所有的设置。
-
+<b>说明</b>：只有API Key的创建者或具有 Teamwork 管理权限的参与用户可以进行以下所有的设置。
 </Alert>
 
 ## 添加参与用户
 您可以为当前的 API Key 添加多个参与用户，具体添加方式如下：
 1. 在 **Teamwork** 页签下，点击 **Add Member** 。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669275.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=6FmVfpO%2Fjv7ruPggrcW%2FGBvMQr0%3D)
+   ![add-member.png](./images/add-member.png)
 
 2. 在弹窗中填写参与用户的邮箱地址，并给该参与用户选择一个角色类型。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669276.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=6BkjqJfLtaHYgGTUGSfx9g8%2FTxo%3D)
+   ![input-member-info.png](./images/input-member-info.png)
 
-3. 点击 **确定** 后，ZAN会发送邮件给到目标参与用户。
+3. 点击 **OK** 后，ZAN会发送邮件给到目标参与用户。
+   同时，在您的成员列表下会生成一条状态为邀请中的成员信息。
+   ![invited-member.png](./images/invited-member.png)
+
 4. 目标参与用户通过ZAN的统一邮件进行确认，确认后就会成为该 API Key 的项目成员。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669277.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=glEEkks05cNQFBiPOClwj0l73D0%3D)
 
 ## 自定义角色
 平台默认已给出一个 **管理员** 的角色类型，如需要创建更多不同权限的角色，操作如下:
 1. 在 **Teamwork** 页签下，点击 **Create Role** 。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669273.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=rpAsJ9c5Bk7KOBY1XXrganzgAXI%3D)
+   ![create-role.png](./images/create-role.png)
 
 2. 在侧边抽屉式弹窗中，点击 **Add** 按钮，即可增加一行配置。
 3. 按下图所示，填写角色名称及对应的权限。
-   ![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669270.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=O%2Bjw64iU%2FiGBxj0KU3UIDscI9ds%3D)
-
+   ![config-role.png](./images/config-role.png)
+   <Alert type="info">
+   <b>说明</b>：在该页，同样支持对之前创建好的角色进行修改或删除的操作。
+   </Alert>
    其中，对于权限选项会有8种，具体根据以下4种权限模块，区分操作权限和查看权限后组合得到。
    | 权限模块     | 操作权限（ALL）    | 查看权限（Only view）                                                |
    |----------|--------------|----------------------------------------------------------------|
@@ -61,8 +71,8 @@ order: 6
 
 ## 修改参与用户的角色
 在 **Teamwork** 页签下，会展示当前API Key 所有参与成员的列表信息。如需修改目标成员的角色，则可在列表的 **Role** 一栏下进行角色的切换。
-![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669181.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=E6nWa52xFw5q%2F1yPqIaowPR9Yy8%3D)
+![modify-role.png](./images/modify-role.png)
 
 ## 删除参与用户
 在 **Teamwork** 页签下，会展示当前API Key 所有参与成员的列表信息。如需删除目标成员，则可在列表的 **Action** 一栏下，点击 **Delete** ，经二次确认后即可删除该成员。
-![image..png](http://icms-x-dita.oss-cn-zhangjiakou.aliyuncs.com/xdita-output/zh-CN/task23019473/images/p669183.png?Expires=7258150991&OSSAccessKeyId=LTAIJfoPL6wmrirR&Signature=pT3SHzv5e2hT3TYsvCETJLgFjiE%3D)
+![delete-member.png](./images/delete-member.png)

@@ -133,7 +133,7 @@ We are committed to extending and enhancing our node service. The following are 
 - **Enterprise Edition**
 - **Monthly Credit Quota Increase Plan**
 
-In this issue, we use the upcoming growth version as a free public beta version, so that Web3 developers can get a better experience. We will roll out more plans for developers to choose, for example, a free plan for Web3 beginners, an Enhanced Edition plan for individual developers, and a Professional Edition that delivers better performance, allows more API keys, and supports a greater maximum number of credits consumed per second than a growth version for small and medium-sized enterprises to develop small and medium-sized applications.
-Of course, we will also roll out an enterprise version plan in which all specifications can be customized.
-Please stay tuned for these exciting feature updates and announcements.
+In this release, we offer the upcoming Growth plan as a free beta plan to provide Web3 developers with a better experience. In the future, we will introduce more subscription plans for developers to choose from, including a Free plan for Web3 beginners, a Growth plan for individual developers, and a Pro plan for professional teams with better performance, more API Key creation capabilities, and higher credit consumption per second than the Growth plan.
+Moreover, we will also launch an Enterprise plan subscription plan suitable for developing large-scale enterprise applications and support customization of all specifications in the subscription plan.
+Stay tuned for more updates and announcements about these exciting features!
 
