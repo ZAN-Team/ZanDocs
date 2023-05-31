@@ -1,9 +1,9 @@
 ---
-title: 节点服务
+title: API 使用说明
 order: 16
 ---
 
-# 节点服务
+# API 使用说明
 
 ## 支持的生态
 
@@ -20,7 +20,6 @@ order: 16
 | 网络        | 端点                                             |
 | ----------- | ------------------------------------------------ |
 | BSC Mainnet | https://api.zan.top/node/v1/bsc/mainnet/{apiKey} |
-| BSC Testnet | https://api.zan.top/node/v1/bsc/testnet/{apiKey} |
 
 ### Polygon
 
@@ -32,8 +31,6 @@ order: 16
 ## 基本使用方法
 
 在开始前，您需要先创建一个 API key。请参见 [从这里开始](/zh-CN/guide/getting-started) 创建 API key。
-
-ZAN Node Service provides a set of JSON-RPC APIs for you to interact with the blockchain, which are similar to the JSON-RPC APIs provided by the native node client. The easiest way to use the APIs is directly sending an HTTP POST request with the API key in the URL. Here's an example to use `curl` to send an HTTP POST request to get the latest block number of Ethereum mainnet.
 
 ZAN 节点服务提供了一组 JSON-RPC API 供您与区块链进行交互，这些 API 与原生节点客户端提供的 JSON-RPC API 类似。使用这些 API 最简单的方法是发送 HTTP POST 请求，并在 URL 中中带上 API key。以下是一个示例，其中使用 `curl` 来发送 HTTP POST 请求以获取以太坊主网最新区块编号。
 

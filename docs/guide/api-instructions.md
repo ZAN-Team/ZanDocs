@@ -1,9 +1,9 @@
 ---
-title: Node Service
+title: API Instructions
 order: 16
 ---
 
-# Node Service
+# API Instructions
 
 ## Supported Ecosystems
 
@@ -20,7 +20,6 @@ order: 16
 | Network     | Endpoint                                         |
 | ----------- | ------------------------------------------------ |
 | BSC Mainnet | https://api.zan.top/node/v1/bsc/mainnet/{apiKey} |
-| BSC Testnet | https://api.zan.top/node/v1/bsc/testnet/{apiKey} |
 
 ### Polygon
 
