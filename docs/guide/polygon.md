@@ -1,12 +1,13 @@
 ---
-title: Polygon API Reference
+title: Polygon
 order: 3
 group:
   title: API Reference
   order: 2
+toc: content
 ---
 
-# Polygon API Reference
+# Polygon
 
 ## Chain & Client Information
 

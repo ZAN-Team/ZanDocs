@@ -1,6 +1,7 @@
 ---
 title: 在MetaMask中添加RPC节点
 order: 7
+toc: content
 ---
 
 # 在MetaMask中添加RPC节点
@@ -28,13 +29,12 @@ order: 7
 
 | **Network**              | **HTTPS URL**                                        | **WSS URL**                                             | **Chain ID** | **Symbol** |
 |--------------------------|------------------------------------------------------|---------------------------------------------------------|--------------|------------|
-| Ethereum Mainnet         | https://api.zan.top/node/v1/eth/mainnet/{apikey}     | wss://api.zan.top/node/ws/v1/eth/mainnet/{apikey}       | 1            | ETH        |
+| Ethereum Mainnet         | https://api.zan.top/node/v1/eth/mainnet/{apikey}     | https://api.zan.top/node/ws/v1/eth/mainnet/{apikey}       | 1            | ETH        |
 | Ethereum Testnet goerli  | https://api.zan.top/node/v1/eth/goerli/{apikey}      | https://api.zan.top/node/ws/v1/eth/goerli/{apikey}      | 5            | ETH        |
 | Ethereum Testnet sepolia | https://api.zan.top/node/v1/eth/sepolia/{apikey}     | https://api.zan.top/node/ws/v1/eth/sepolia/{apikey}     | 11155111  | ETH        |
 | Polygon Mainnet          | https://api.zan.top/node/v1/polygon/mainnet/{apikey} | https://api.zan.top/node/ws/v1/polygon/mainnet/{apikey} | 137          | MATIC      |
 | Polygon Mumbai           | https://api.zan.top/node/v1/polygon/mumbai/{apikey}  | https://api.zan.top/node/ws/v1/polygon/mumbai/{apikey}  | 80001        | MATIC      |
 | BSC Mainnet              | https://api.zan.top/node/v1/bsc/mainnet/{apikey}     | https://api.zan.top/node/ws/v1/bsc/mainnet/{apikey}     | 56           | BNB        |
-| BSC Testnet              | https://api.zan.top/node/v1/bsc/testnet/{apikey}     | https://api.zan.top/node/ws/v1/bsc/testnet/{apikey}     | 97           | BNB        |
 
 ## 第四步: 添加网络
 以下将分别给出了添加Polygon主网和添加Polygon测试网络的步骤。

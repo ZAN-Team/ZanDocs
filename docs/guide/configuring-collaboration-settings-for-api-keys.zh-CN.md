@@ -1,6 +1,7 @@
 ---
 title: API Key 多方协同
 order: 6
+toc: content
 ---
 
 # API Key 多方协同

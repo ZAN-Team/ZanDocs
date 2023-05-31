@@ -1,6 +1,7 @@
 ---
 title: API Key 状态监测
 order: 5
+toc: content
 ---
 
 # API Key 状态监测

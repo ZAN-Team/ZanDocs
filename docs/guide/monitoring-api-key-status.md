@@ -1,9 +1,10 @@
 ---
-title: Monitoring API key status
+title: Monitoring
 order: 5
+toc: content
 ---
 
-# Monitoring API key status
+# Monitoring
 On the Stats tab, you can comprehensively monitor the status of your API key in real time based on the following dimensions: credit usage, request distribution of top 5 API methods, request status, and request sources. Status monitoring helps you keep abreast of the use and quickly respond. 
 
 ## Overview

@@ -1,9 +1,10 @@
 ---
-title: Adding RPC nodes to MetaMask
+title: Connect to wallet
 order: 7
+toc: content
 ---
 
-# Adding RPC nodes to MetaMask
+# Connect to wallet
 The steps to add Ethereum, Polygon, and BSC RPC nodes to MetaMask are the same. This tutorial uses Polygon as an example to guide you on how to add custom RPC node service networks of Polygon Mainnet and Mumbai Testnet to MetaMask. You can add Polygon to MetaMask in a few steps. 
 
 ## Procedure
@@ -28,13 +29,12 @@ The following table lists the network URLs of the blockchains currently supporte
 
 | **Network** | **HTTPS URL** | **WSS URL** | **Chain ID** | **Symbol** |
 |--------------------------|------------------------------------------------------|---------------------------------------------------------|--------------|------------|
-| Ethereum Mainnet | https://api.zan.top/node/v1/eth/mainnet/{apikey} | wss://api.zan.top/node/ws/v1/eth/mainnet/{apikey} | 1 | ETH |
+| Ethereum Mainnet | https://api.zan.top/node/v1/eth/mainnet/{apikey} | https://api.zan.top/node/ws/v1/eth/mainnet/{apikey} | 1 | ETH |
 | Ethereum Testnet Goerli | https://api.zan.top/node/v1/eth/goerli/{apikey} | https://api.zan.top/node/ws/v1/eth/goerli/{apikey} | 5 | ETH |
 | Ethereum Testnet Sepolia | https://api.zan.top/node/v1/eth/sepolia/{apikey} | https://api.zan.top/node/ws/v1/eth/sepolia/{apikey} | 11155111 | ETH |
 | Polygon Mainnet | https://api.zan.top/node/v1/polygon/mainnet/{apikey} | https://api.zan.top/node/ws/v1/polygon/mainnet/{apikey} | 137 | MATIC |
 | Polygon Mumbai | https://api.zan.top/node/v1/polygon/mumbai/{apikey} | https://api.zan.top/node/ws/v1/polygon/mumbai/{apikey} | 80001 | MATIC |
 | BSC Mainnet | https://api.zan.top/node/v1/bsc/mainnet/{apikey} | https://api.zan.top/node/ws/v1/bsc/mainnet/{apikey} | 56 | BNB |
-| BSC Testnet | https://api.zan.top/node/v1/bsc/testnet/{apikey} | https://api.zan.top/node/ws/v1/bsc/testnet/{apikey} | 97 | BNB |
 
 ## Step 4: Add the network
 This section describes how to add Polygon Mainnet and Polygon's Mumbai Testnet to MetaMask. 

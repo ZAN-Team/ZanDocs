@@ -1,6 +1,7 @@
 ---
 title: Geeting started
 order: 3
+toc: content
 ---
 
 # 🚀 Getting started
@@ -91,7 +92,7 @@ You can connect to blockchains that the platform currently supports by using the
 To help you directly get the network URLs of different blockchains, the platform automatically generates URLs concatenated with the API key for you, and provides HTTPS and WSS connection methods. 
 ![get-apikey-info.png](./images/get-apikey-info.png)
 
-Each blockchain supports multiple networks. To switch networks such as the testnet and mainnet, click the drop-down menu in the upper-right corner of the specific blockchain module. Different URLs are provided for different networks. You can click Copy to the right side of the URL to copy it. 
+To switch networks such as the testnet and mainnet, click the drop-down menu in the upper-right corner of the specific blockchain module. Different URLs are provided for different networks. You can click Copy to the right side of the URL to copy it. 
 
 ### 📚 What to do next
 - Follow the steps described in the [Creating an API key](#creating-an-api-key) section to create more API keys.

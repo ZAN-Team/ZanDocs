@@ -1,9 +1,10 @@
 ---
-title: Configuring collaboration settings for API keys
+title: Collaboration settings
 order: 6
+toc: content
 ---
 
-# Configuring collaboration settings for API keys
+# Collaboration settings
 After you create an API key, you can share it with other members. You can also configure permissions for each member to implement collaborative development in your project team. 
 
 ## Overview
