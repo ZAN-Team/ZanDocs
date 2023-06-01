@@ -25,6 +25,10 @@ toc: content
 | ----------- | ------------------------------------------------ |
 | BSC Mainnet | https://api.zan.top/node/v1/bsc/mainnet/{apiKey} |
 
+> Only BSC Mainnet is supported for now. BSC Testnet is coming soon.
+
+> For stability considerations, only blocks from 28435579 to the latest (`[28435579, latest)`) are available for historical block queries on BSC Mainnet and only the latest 128 blocks are available for state queries.
+
 ### Polygon
 
 | Network         | Endpoint                                             |
