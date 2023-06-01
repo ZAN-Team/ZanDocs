@@ -1,6 +1,10 @@
 ---
-title: API 使用说明
-order: 16
+title: 使用说明
+order: 1
+group:
+  title: API 参考
+  order: 2
+toc: content
 ---
 
 # API 使用说明
@@ -9,7 +13,7 @@ order: 16
 
 ### 以太坊（Ethereum）
 
-| 网络             | 端点                                             |
+| 网络             | 端点                                              |
 | ---------------- | ------------------------------------------------ |
 | Ethereum Mainnet | https://api.zan.top/node/v1/eth/mainnet/{apiKey} |
 | Ethereum Sepolia | https://api.zan.top/node/v1/eth/sepolia/{apiKey} |

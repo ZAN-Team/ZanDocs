@@ -29,12 +29,12 @@ The following table lists the network URLs of the blockchains currently supporte
 
 | **Network** | **HTTPS URL** | **WSS URL** | **Chain ID** | **Symbol** |
 |--------------------------|------------------------------------------------------|---------------------------------------------------------|--------------|------------|
-| Ethereum Mainnet | https://api.zan.top/node/v1/eth/mainnet/{apikey} | https://api.zan.top/node/ws/v1/eth/mainnet/{apikey} | 1 | ETH |
-| Ethereum Testnet Goerli | https://api.zan.top/node/v1/eth/goerli/{apikey} | https://api.zan.top/node/ws/v1/eth/goerli/{apikey} | 5 | ETH |
-| Ethereum Testnet Sepolia | https://api.zan.top/node/v1/eth/sepolia/{apikey} | https://api.zan.top/node/ws/v1/eth/sepolia/{apikey} | 11155111 | ETH |
-| Polygon Mainnet | https://api.zan.top/node/v1/polygon/mainnet/{apikey} | https://api.zan.top/node/ws/v1/polygon/mainnet/{apikey} | 137 | MATIC |
-| Polygon Mumbai | https://api.zan.top/node/v1/polygon/mumbai/{apikey} | https://api.zan.top/node/ws/v1/polygon/mumbai/{apikey} | 80001 | MATIC |
-| BSC Mainnet | https://api.zan.top/node/v1/bsc/mainnet/{apikey} | https://api.zan.top/node/ws/v1/bsc/mainnet/{apikey} | 56 | BNB |
+| Ethereum Mainnet | https://api.zan.top/node/v1/eth/mainnet/{apikey} | wss://api.zan.top/node/ws/v1/eth/mainnet/{apikey} | 1 | ETH |
+| Ethereum Testnet Goerli | https://api.zan.top/node/v1/eth/goerli/{apikey} | wss://api.zan.top/node/ws/v1/eth/goerli/{apikey} | 5 | ETH |
+| Ethereum Testnet Sepolia | https://api.zan.top/node/v1/eth/sepolia/{apikey} | wss://api.zan.top/node/ws/v1/eth/sepolia/{apikey} | 11155111 | ETH |
+| Polygon Mainnet | https://api.zan.top/node/v1/polygon/mainnet/{apikey} | wss://api.zan.top/node/ws/v1/polygon/mainnet/{apikey} | 137 | MATIC |
+| Polygon Mumbai | https://api.zan.top/node/v1/polygon/mumbai/{apikey} | wss://api.zan.top/node/ws/v1/polygon/mumbai/{apikey} | 80001 | MATIC |
+| BSC Mainnet | https://api.zan.top/node/v1/bsc/mainnet/{apikey} | wss://api.zan.top/node/ws/v1/bsc/mainnet/{apikey} | 56 | BNB |
 
 ## Step 4: Add the network
 This section describes how to add Polygon Mainnet and Polygon's Mumbai Testnet to MetaMask. 
@@ -60,7 +60,7 @@ This section describes how to add Polygon Mainnet and Polygon's Mumbai Testnet t
    |------------------------|------------------------------------------------------|
    | **Network Name** | The name of the network, which facilitates easy identification of different networks. If you are adding a custom network, we recommend that you use the network name, such as ETH Mainnet.  |
    | **New RPC URL** | The URL of the message server, which tells the MetaMask wallet where to send transaction requests. Different chains have different fixed servers. Enter the network URL that you obtained in the ZAN console. For more information, see [Step 3](#step-3-copy-your-network-url).  |
-   | **Chain ID** | The chain ID, which is used to sign transactions. Different chains have different fixed IDs. The chain ID is required for obtaining network configuration. For example, Polygon's chain ID is 1.  |
+   | **Chain ID** | The chain ID, which is used to sign transactions. Different chains have different fixed IDs. The chain ID is required for obtaining network configuration. For example, Polygon's chain ID is 137.  |
    | **Currency Symbol** | The currency symbol that MetaMask uses for the network's native currency. For example, the currency symbol is ETH for Ethereum Mainnet, BNB for BSC networks, and MATIC for Polygon networks.  |
    | **Block Explorer URL** | The URL of the blockchain browser, which is used to check transaction details and other information. For example, the URL of the blockchain browser for Polygon is https://etherscan.io/.  |
 

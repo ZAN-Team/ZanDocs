@@ -1,6 +1,10 @@
 ---
-title: API Instructions
-order: 16
+title: Instructions
+order: 1
+group:
+  title: API Reference
+  order: 2
+toc: content
 ---
 
 # API Instructions

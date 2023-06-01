@@ -29,12 +29,12 @@ toc: content
 
 | **Network**              | **HTTPS URL**                                        | **WSS URL**                                             | **Chain ID** | **Symbol** |
 |--------------------------|------------------------------------------------------|---------------------------------------------------------|--------------|------------|
-| Ethereum Mainnet         | https://api.zan.top/node/v1/eth/mainnet/{apikey}     | https://api.zan.top/node/ws/v1/eth/mainnet/{apikey}       | 1            | ETH        |
-| Ethereum Testnet goerli  | https://api.zan.top/node/v1/eth/goerli/{apikey}      | https://api.zan.top/node/ws/v1/eth/goerli/{apikey}      | 5            | ETH        |
-| Ethereum Testnet sepolia | https://api.zan.top/node/v1/eth/sepolia/{apikey}     | https://api.zan.top/node/ws/v1/eth/sepolia/{apikey}     | 11155111  | ETH        |
-| Polygon Mainnet          | https://api.zan.top/node/v1/polygon/mainnet/{apikey} | https://api.zan.top/node/ws/v1/polygon/mainnet/{apikey} | 137          | MATIC      |
-| Polygon Mumbai           | https://api.zan.top/node/v1/polygon/mumbai/{apikey}  | https://api.zan.top/node/ws/v1/polygon/mumbai/{apikey}  | 80001        | MATIC      |
-| BSC Mainnet              | https://api.zan.top/node/v1/bsc/mainnet/{apikey}     | https://api.zan.top/node/ws/v1/bsc/mainnet/{apikey}     | 56           | BNB        |
+| Ethereum Mainnet         | https://api.zan.top/node/v1/eth/mainnet/{apikey}     | wss://api.zan.top/node/ws/v1/eth/mainnet/{apikey}       | 1            | ETH        |
+| Ethereum Testnet goerli  | https://api.zan.top/node/v1/eth/goerli/{apikey}      | wss://api.zan.top/node/ws/v1/eth/goerli/{apikey}      | 5            | ETH        |
+| Ethereum Testnet sepolia | https://api.zan.top/node/v1/eth/sepolia/{apikey}     | wss://api.zan.top/node/ws/v1/eth/sepolia/{apikey}     | 11155111  | ETH        |
+| Polygon Mainnet          | https://api.zan.top/node/v1/polygon/mainnet/{apikey} | wss://api.zan.top/node/ws/v1/polygon/mainnet/{apikey} | 137          | MATIC      |
+| Polygon Mumbai           | https://api.zan.top/node/v1/polygon/mumbai/{apikey}  | wss://api.zan.top/node/ws/v1/polygon/mumbai/{apikey}  | 80001        | MATIC      |
+| BSC Mainnet              | https://api.zan.top/node/v1/bsc/mainnet/{apikey}     | wss://api.zan.top/node/ws/v1/bsc/mainnet/{apikey}     | 56           | BNB        |
 
 ## 第四步: 添加网络
 以下将分别给出了添加Polygon主网和添加Polygon测试网络的步骤。
@@ -60,7 +60,7 @@ toc: content
    |------------------------|------------------------------------------------------|
    | **Network Name**       | 网络名称，便于区别不同网络，如果是自定义网络，建议直接使用网络名，如 ETH Mainnet。                                                 |
    | **New RPC URL**        | 消息服务器地址，告诉 MetaMask 钱包向哪发送交易请求，不同的链有固定的服务器。请填写您在ZAN控制台上获取的网络连接地址，获取方式详见[第三步](#第三步复制您的网络连接地址)。 |
-   | **Chain ID**           | 链 ID，用于签署交易，不同的链会有固定的 ID，在获取网络配置时需要提供，如 Polygon 的链 ID为1。                                        |
+   | **Chain ID**           | 链 ID，用于签署交易，不同的链会有固定的 ID，在获取网络配置时需要提供，如 Polygon 的链 ID为 137。                                        |
    | **Currency Symbol**    | 显示这个网络的基础代币，以太坊主网就是 ETH、BSC 网络是 BNB、Polygon 网络是 MATIC 等。                                        |
    | **Block Explorer URL** | 区块链浏览器，用于查看交易详情等，如Polygon的区块链浏览器地址为：https://etherscan.io/。                                      |
 
