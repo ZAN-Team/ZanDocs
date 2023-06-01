@@ -93,9 +93,9 @@ wscat -c wss://api.zan.top/node/ws/v1/polygon/mainnet/{apiKey}
 ##### 返回响应
 ```json
 {
-    "jsonrpc": "2.0",
-    "id": 1,
-    "result": "0x1"
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x89"
 }
 ```
 
@@ -284,9 +284,9 @@ wscat -c wss://api.zan.top/node/ws/v1/polygon/mainnet/{apiKey}
 ##### 返回响应
 ```json
 {
-    "jsonrpc": "2.0",
-    "id": 1,
-    "result": true
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "137"
 }
 ```
 

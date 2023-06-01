@@ -96,9 +96,9 @@ wscat -c wss://api.zan.top/node/ws/v1/bsc/mainnet/{apiKey}
 ##### Example Responses
 ```json
 {
-    "jsonrpc": "2.0",
-    "id": 1,
-    "result": "0x1"
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x38"
 }
 ```
 
@@ -289,9 +289,9 @@ wscat -c wss://api.zan.top/node/ws/v1/bsc/mainnet/{apiKey}
 ##### Example Responses
 ```json
 {
-    "jsonrpc": "2.0",
-    "id": 1,
-    "result": true
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "56"
 }
 ```
 
