@@ -23,7 +23,7 @@ jobs:
         run: |
           pnpm install
           pnpm run build
-          cp CANME dist/CNAME
+          cp CNAME dist/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
