@@ -113,14 +113,17 @@ For more information, see: [https://docs.web3j.io](https://docs.web3j.io).
 Enforce additional security by requiring an API key secret for all requests, see [Configuring secret-based two-factor authentication](./configuring-security-settings-for-api-keys#configuring-secret-based-two-factor-authentication).
 ![security-config.png](./images/security-config.png)
 
-```
-curl --user :{secretKey} \
-    https://api.zan.top/node/v1/eth/mainnet/{apiKey} \
+- HTTPS
+  ```
+  curl --user :{secretKey} \
+    https://api.zan.top/node/ws/v1/eth/mainnet/{apiKey} \
     -X POST \
     -H "Content-Type: application/json" \
     -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+  ```
 
-
-wscat -c wss://api.zan.top/node/v1/eth/mainnet/{apiKey} --auth ":{secretKey}"
-> {"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}
-```
+- WebSocket
+  ```
+  wscat -c wss://api.zan.top/node/ws/v1/eth/mainnet/{apiKey} --auth ":{secretKey}"
+  > {"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}
+  ```

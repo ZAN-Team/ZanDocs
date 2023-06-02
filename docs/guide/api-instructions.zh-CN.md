@@ -112,14 +112,17 @@ System.out.println("getBlockNumber(): "+ethBlockNumber.getBlockNumber());
 您可以通过对所有请求加一个API密钥来加强额外的安全性，具体参见[密钥双重校验](./zh-CN/guide/configuring-security-settings-for-api-keys#密钥双重校验)。
 ![security-config.png](./images/security-config.png)
 
-```
-curl --user :{secretKey} \
-    https://api.zan.top/node/v1/eth/mainnet/{apiKey} \
+- HTTPS
+  ```
+  curl --user :{secretKey} \
+    https://api.zan.top/node/ws/v1/eth/mainnet/{apiKey} \
     -X POST \
     -H "Content-Type: application/json" \
     -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+  ```
 
-
-wscat -c wss://api.zan.top/node/v1/eth/mainnet/{apiKey} --auth ":{secretKey}"
-> {"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}
-```
+- WebSocket
+  ```
+  wscat -c wss://api.zan.top/node/ws/v1/eth/mainnet/{apiKey} --auth ":{secretKey}"
+  > {"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}
+  ```
