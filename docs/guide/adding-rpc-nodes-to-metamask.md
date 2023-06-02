@@ -58,11 +58,11 @@ This section describes how to add Polygon Mainnet and Polygon's Mumbai Testnet t
 
    | Parameter | Description |
    |------------------------|------------------------------------------------------|
-   | **Network Name** | The name of the network, which facilitates easy identification of different networks. If you are adding a custom network, we recommend that you use the network name, such as ETH Mainnet.  |
-   | **New RPC URL** | The URL of the message server, which tells the MetaMask wallet where to send transaction requests. Different chains have different fixed servers. Enter the network URL that you obtained in the ZAN console. For more information, see [Step 3](#step-3-copy-your-network-url).  |
-   | **Chain ID** | The chain ID, which is used to sign transactions. Different chains have different fixed IDs. The chain ID is required for obtaining network configuration. For example, Polygon's chain ID is 137.  |
-   | **Currency Symbol** | The currency symbol that MetaMask uses for the network's native currency. For example, the currency symbol is ETH for Ethereum Mainnet, BNB for BSC networks, and MATIC for Polygon networks.  |
-   | **Block Explorer URL** | The URL of the blockchain browser, which is used to check transaction details and other information. For example, the URL of the blockchain browser for Polygon is https://etherscan.io/.  |
+   | **Network Name** | The name of the network, which facilitates easy identification of different networks. <br>If you are adding a custom network, we recommend that you use the network name, such as ETH Mainnet.  |
+   | **New RPC URL** | The URL of the message server, which tells the MetaMask wallet where to send transaction requests. <br>Different chains have different fixed servers. Enter the network URL that you obtained in the ZAN console. For more information, see [Step 3](#step-3-copy-your-network-url).  |
+   | **Chain ID** | The chain ID, which is used to sign transactions. Different chains have different fixed IDs. <br>The chain ID is required for obtaining network configuration. For example, Polygon's chain ID is 137.  |
+   | **Currency Symbol** | The currency symbol that MetaMask uses for the network's native currency. <br>For example, the currency symbol is ETH for Ethereum Mainnet, BNB for BSC networks, and MATIC for Polygon networks.  |
+   | **Block Explorer URL** | The URL of the blockchain browser, which is used to check transaction details and other information. <br>For example, the URL of the blockchain browser for Polygon is https://etherscan.io/.  |
 
 After you click Save, you are switched to Polygon Mainnet in the network drop-down list. 
 

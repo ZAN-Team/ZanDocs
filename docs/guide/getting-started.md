@@ -42,7 +42,7 @@ After completing the registration for your ZAN account, you can apply for our fr
    ![feedbacks-detail.png](./images/feedbacks-detail.png)
    
    <Alert type="info">
-   📘 <b>Note</b>：After we receive your application, we will provide feedback as soon as possible and notify you by email. Please check your email regularly.
+   📘 <b>Note</b>: After we receive your application, we will provide feedback as soon as possible and notify you by email. Please check your email regularly.
    </Alert>
 
 ### If you have registered and successfully applied
