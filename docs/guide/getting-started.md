@@ -15,7 +15,7 @@ After learning this chapter, you can gain:
 - **Dual support for HTTPS and WSS**
    Connections can be established over HTTPS and WebSocket Secure (WSS). This can meet the different requirements of applications. 
 
-For Web3 application developers, the cost of building nodes on public blockchains is relatively high, and the stability and security of the node running cannot be ensured. In this issue, a node service is available in public preview for free (valid for 30 days and allows you to create a maximum of ten API keys). To interact with blockchains through HTTPS/WSS, developers only need to get the API key that is required to establish connections to RPC nodes.
+For Web3 application developers, the cost of building nodes on public blockchains is relatively high, and the stability and security of the node running cannot be ensured. In this issue, a node service is available in public preview for free (allows you to create a maximum of ten API keys). To interact with blockchains through HTTPS/WSS, developers only need to get the API key that is required to establish connections to RPC nodes.
 Before you use the node service to connect to blockchains, sign up for an account on the ZAN platform. Then, you can use this account to log in to the ZAN console and create the API keys required for Web3 application development. 
 
 ## 🔏 Preparing a ZAN account
@@ -42,7 +42,7 @@ After completing the registration for your ZAN account, you can apply for our fr
    ![feedbacks-detail.png](./images/feedbacks-detail.png)
    
    <Alert type="info">
-   📘 <b>Note</b>：After we receive your application, we will provide feedback as soon as possible and notify you by email. Please check your email regularly.
+   📘 <b>Note</b>: After we receive your application, we will provide feedback as soon as possible and notify you by email. Please check your email regularly.
    </Alert>
 
 ### If you have registered and successfully applied

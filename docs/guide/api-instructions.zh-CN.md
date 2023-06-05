@@ -24,10 +24,11 @@ toc: content
 | 网络        | 端点                                             |
 | ----------- | ------------------------------------------------ |
 | BSC Mainnet | https://api.zan.top/node/v1/bsc/mainnet/{apiKey} |
-
-> 当前暂时只支持 BSC 主网，测试网即将上线。
-
-> 出于稳定性保障原因，BSC 主网历史区块查询暂时只支持 28435579 至最新区块（`[28435579, latest)`），状态数据查询暂时支持离最新区块的最近 128 个区块。
+</br> 
+<Alert type="info">
+<ul><li>当前暂时只支持 BSC 主网，测试网即将上线。</li><li>出于稳定性保障原因，BSC 主网历史区块查询暂时只支持 28435579 至最新区块（`[28435579, latest)`），状态数据查询暂时支持离最新区块的最近 128 个区块。</li></ul>
+</Alert>
+</br>
 
 ### Polygon
 
@@ -67,10 +68,61 @@ wscat -c wss://api.zan.top/node/ws/v1/eth/mainnet/{apiKey}
 
 如果您计划在编程语言中使用这些 API，有很多库可供选择，包括：
 
-- go-ethereum（用于 Golang）
-- web3.js（用于 JavaScript）
-- web3.py（用于 Python）
-- web3j（用于 Java/Kotlin/Scala）
-- Nethereum（用于 .NET）
+### web3.js（用于 JavaScript）
+```javascript
+var Web3 = require('web3');
+var provider = 'https://api.zan.top/node/v1/eth/mainnet/{apiKey}';
+var web3Provider = new Web3.providers.HttpProvider(provider);
+var web3 = new Web3(web3Provider);
+web3.eth.getBlockNumber().then((result) => {
+  console.log("getBlockNumber(): ",result);
+});
+```
+如想了解更多信息，请参见[https://web3js.readthedocs.io](https://web3js.readthedocs.io)。
 
-如想了解更多信息，请参阅以太坊网站上的 [后端 API 库](https://ethereum.org/en/developers/docs/apis/backend/#available-libraries) 页面。
+### Ethers (用于 JavaScript)
+```javascript
+var ethers = require('ethers');
+var url = 'https://api.zan.top/node/v1/eth/mainnet/{apiKey}';
+var customHttpProvider = new ethers.providers.JsonRpcProvider(url);
+customHttpProvider.getBlockNumber().then((result) => {
+    console.log("getBlockNumber(): " + result);
+});
+```
+如想了解更多信息，请参见[https://docs.ethers.org](https://docs.ethers.org)。
+
+### web3.py（用于 Python）
+```python
+from web3 import Web3, HTTPProvider
+connection = Web3(HTTPProvider('https://api.zan.top/node/v1/eth/mainnet/{apiKey}'))
+print ("getBlockNumber():", connection.eth.blockNumber).
+```
+如想了解更多信息，请参见[https://web3py.readthedocs.io](https://web3py.readthedocs.io)。
+
+### web3j（用于 Java/Kotlin/Scala）
+```java
+Web3j client = Web3j.build(new HttpService("https://api.zan.top/node/v1/eth/mainnet/{apiKey}"));
+EthBlockNumber ethBlockNumber = client.ethBlockNumber().sendAsync().get();
+System.out.println("getBlockNumber(): "+ethBlockNumber.getBlockNumber());
+```
+如想了解更多信息，请参见[https://docs.web3j.io](https://docs.web3j.io)。
+
+
+## 安全使用
+您可以通过对所有请求加一个API密钥来加强额外的安全性，具体参见[密钥双重校验](./zh-CN/guide/configuring-security-settings-for-api-keys#密钥双重校验)。
+![security-config.png](./images/security-config.png)
+
+- HTTPS
+  ```
+  curl --user :{secretKey} \
+    https://api.zan.top/node/ws/v1/eth/mainnet/{apiKey} \
+    -X POST \
+    -H "Content-Type: application/json" \
+    -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+  ```
+
+- WebSocket
+  ```
+  wscat -c wss://api.zan.top/node/ws/v1/eth/mainnet/{apiKey} --auth ":{secretKey}"
+  > {"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}
+  ```
