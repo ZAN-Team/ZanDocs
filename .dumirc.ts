@@ -21,10 +21,14 @@ export default defineConfig({
       content: `
 #root {
   background-attachment: fixed;
+  .chakra-table__container {
+    max-width: 855px;
+  }
 }
 #root > div > div > div > ul {
   height: 80vh;
-  overflow-y: auto;
+  width: 184px;
+  overflow: auto;
 }
 .chakra-ui-light{
   #root {
