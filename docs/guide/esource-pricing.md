@@ -73,7 +73,7 @@ The following are the Credit pricing for different RPC methods based on their co
 
 ## Plan specifications
 ### Existing plan
-In this release, we provide a free public preview edition. After logging in to the ZAN console, developers can use the free plan for 30 days by default. The specific details of the plan are as follows. 
+In this release, we provide a free public preview edition. Developers can log in to the ZAN console to participate in the public preview edition. The specific details of the plan are as follows. 
 
 |**Plan**|Free Bate Testing|
 |-----|-----|
