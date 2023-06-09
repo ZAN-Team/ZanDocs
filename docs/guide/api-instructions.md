@@ -29,8 +29,7 @@ toc: content
 </br> 
 <Alert type="info">
 <ul>
-<li>For stability considerations, only blocks from 28435579 to the latest (<code>[28435579, latest)</code>) are available for historical block queries on BSC Mainnet and only the latest 128 blocks are available for state queries. Only the latest 128 blocks are available for state queries on BSC Testnet.
-</li>
+<li>For stability considerations, only the latest 128 blocks are available for state queries on BSC Mainnet and Testnet.</li>
 </ul>
 </Alert>
 </br>
