@@ -1,6 +1,6 @@
 ---
 title: Security settings
-order: 4
+order: 5
 toc: content
 ---
 

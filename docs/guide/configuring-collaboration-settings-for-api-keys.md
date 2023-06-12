@@ -1,6 +1,6 @@
 ---
 title: Collaboration settings
-order: 6
+order: 7
 toc: content
 ---
 

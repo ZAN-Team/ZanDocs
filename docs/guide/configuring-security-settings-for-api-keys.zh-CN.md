@@ -1,6 +1,6 @@
 ---
 title: API Key 安全性配置
-order: 4
+order: 5
 toc: content
 ---
 

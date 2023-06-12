@@ -1,6 +1,6 @@
 ---
   title: 资源定价
-  order: 2
+  order: 3
   toc: content
 ---
 # 资源定价

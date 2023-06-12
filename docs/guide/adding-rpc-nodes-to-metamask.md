@@ -1,6 +1,6 @@
 ---
 title: Connect to wallet
-order: 7
+order: 8
 toc: content
 ---
 
