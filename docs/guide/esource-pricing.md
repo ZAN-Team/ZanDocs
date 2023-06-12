@@ -1,6 +1,6 @@
 ---
 title: Resource pricing
-order: 2
+order: 3
 toc: content
 ---
 
