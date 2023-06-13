@@ -29,7 +29,7 @@ During the public beta period, all participating users have the opportunity to p
    ZAN official website link: [https://zan.top/home/](https://zan.top/home/)
 
 ## Upcoming activities
-For users who have participated in the public beta test, in order to further improve and optimize our products to meet your needs, we will also invite you to fill out a survey by email, in which you can actively provide feedback on bugs and optimization suggestions. In addition, based on the specific situation of the survey you filled out, we will randomly select 10 users from all feedback suggestions users to be awarded with a one-month free use of ZAN Node Service Enhanced Version (Growth). The specific details will be announced after the public beta test ends.
+For users who have participated in the public beta test, in order to further improve and optimize our products to meet your needs, we will invite you to fill out a survey by email. Through the survey, you can actively provide feedback on bugs and optimization suggestions, which will help us better update and enhance our products. In addition, based on the specific situation of your survey, we will randomly select 10 users who provided effective feedback suggestions to be awarded with a one-month free use of ZAN Node Service Enhanced Version (Growth). The specific details will be announced after the public beta test ends.
 We will also continue to launch various limited time welfare activities, and you can also pay attention to our official updates!
 Official accounts:
 ![account-code.png](./images/account-code.png)
