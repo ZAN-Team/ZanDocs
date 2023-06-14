@@ -36,7 +36,7 @@ After completing the registration for your ZAN account, you can apply for our fr
    ![send-message.png](./images/send-message.png)
 
 4. After a successful application, the page will display the following message.
-   ![feedback-recrived.png](./images/feedback-recrived.png)
+   ![feedback-received.png](./images/feedback-received.png)
 
    You can click **View Detail** in the pop-up window to check the status of your application on the homepage.
    ![feedbacks-detail.png](./images/feedbacks-detail.png)
