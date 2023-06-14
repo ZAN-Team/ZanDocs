@@ -37,7 +37,7 @@ toc: content
    ![send-message.png](./images/send-message.png)
 
 4. 申请成功后，页面提示如下。
-   ![feedback-recrived.png](./images/feedback-recrived.png)
+   ![feedback-received.png](./images/feedback-received.png)
 
    您可以点击弹窗中的 **View Detail**，在主页里查看申请状态。
    ![feedbacks-detail.png](./images/feedbacks-detail.png)
