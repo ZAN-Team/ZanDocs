@@ -1,6 +1,8 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
+  publicPath: '/ZanDocs/',
+  base: '/ZanDocs/',
   favicons: ['https://a.zan.top/static/favicon.png'],
   locales: [
     { id: 'en-US', name: 'English' },
